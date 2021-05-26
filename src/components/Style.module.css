@@ -1,0 +1,43 @@
+.wrapper {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 700px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  /* text-align: center; */
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-left: 290px;
+  /* margin-top: 20px; */
+  width: 160px;
+}
+
+.filter {
+  width: 100px;
+  border: blue;
+  padding-bottom: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item {
+  width: 500px;
+  height: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px blue;
+  background-color: burlywood;
+}
